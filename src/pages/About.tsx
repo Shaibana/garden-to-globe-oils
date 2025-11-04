@@ -55,21 +55,21 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 animate-fade-in-up">
               <h2 className="text-4xl font-serif font-bold">Our Story</h2>
+              <h3 className="text-2xl font-serif font-semibold text-primary">M/s. M. M. Abdul Hameed & Sons</h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                PureEssence Global was founded in 1999 with a simple mission: to bridge the gap between
-                traditional botanical wisdom and modern business needs. What started as a small family
-                operation in the heart of lavender country has grown into one of the world's most
-                trusted essential oil wholesalers.
+                M/s. M. M. Abdul Hameed & Sons is a <strong>Registered Partnership Firm</strong> established by the Managing Director, Directors, and Shareholders of the erstwhile <strong>M/s. Mackar Pillay & Sons (P) Ltd</strong>, a pioneering enterprise incorporated in <strong>1935</strong>. Following the voluntary liquidation of the earlier company—undertaken to overcome political challenges surrounding the closure of its cashew processing unit—the partners continued their legacy through the formation of M/s. M. M. Abdul Hameed & Sons.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Today, we partner with over 200 certified organic farms across 30 countries,
-                supplying premium essential oils to wellness brands, cosmetic manufacturers, spas,
-                and retailers in more than 50 countries worldwide.
+                The present partners of the firm are <strong>Mr. M. A. Mohammed</strong> and <strong>Mr. Ameen Mohammed</strong>, distinguished by their strong academic backgrounds — Mr. M. A. Mohammed holds a <strong>Postgraduate degree in Chemistry</strong>, while Mr. Ameen Mohammed is a <strong>Rank Holder in Law</strong>. Mr. M. A. Mohammed has been an integral part of the firm since its inception in <strong>1971</strong>.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Our success is built on relationships—with farmers who share our commitment to
-                quality, with clients who trust our expertise, and with the earth that provides
-                these precious botanical treasures.
+                From its very beginning, the firm has been actively engaged in the <strong>export of Essential and Aromatic Oils</strong>, while also maintaining long-standing wholesale partnerships with reputed Indian companies such as <strong>Glaxo, Roche, and Hindustan Lever</strong>.
+              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Over the decades, the firm has earned a <strong>sterling reputation</strong> for integrity, consistency, and uncompromising quality — both in domestic and international markets. Its dedication to excellence was recognized when it was honored as the <strong>Top Exporter of Essential and Aromatic Oils</strong> in <strong>1976</strong>, and again in <strong>1986</strong> when the <strong>Ministry of Commerce, Government of India</strong>, acknowledged the company's <strong>steady improvement in quality</strong> and its record of <strong>zero quality claims</strong> from overseas clients.
+              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Today, M/s. M. M. Abdul Hameed & Sons continues to uphold its tradition of trust, quality, and professionalism, serving customers worldwide with the finest essential and aromatic oils.
               </p>
             </div>
             <div className="animate-fade-in-up">
