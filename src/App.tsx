@@ -10,6 +10,7 @@ import Wholesale from "./pages/Wholesale";
 import Quality from "./pages/Quality";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import ChatBox from "./components/ChatBox";
 
 const queryClient = new QueryClient();
 
@@ -29,6 +30,7 @@ const App = () => (
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <ChatBox />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
