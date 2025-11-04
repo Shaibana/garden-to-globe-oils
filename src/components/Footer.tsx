@@ -12,9 +12,9 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-                <span className="text-primary-foreground font-serif text-xl font-bold">PE</span>
+                <span className="text-primary-foreground font-serif text-xl font-bold">AH</span>
               </div>
-              <span className="font-serif text-xl font-semibold">PureEssence</span>
+              <span className="font-serif text-xl font-semibold">Abdul Hameed & Sons</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Pure. Natural. Trusted Worldwide. Wholesale essential oils from nature's finest gardens.
@@ -65,15 +65,15 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start space-x-2 text-sm text-muted-foreground">
                 <Mail className="h-4 w-4 mt-0.5 text-primary" />
-                <span>info@pureessence.com</span>
+                <span>info@mmabdulhameed.com</span>
               </li>
               <li className="flex items-start space-x-2 text-sm text-muted-foreground">
                 <Phone className="h-4 w-4 mt-0.5 text-primary" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 484 123 4567</span>
               </li>
               <li className="flex items-start space-x-2 text-sm text-muted-foreground">
                 <MapPin className="h-4 w-4 mt-0.5 text-primary" />
-                <span>Global Trade Center, Suite 500</span>
+                <span>Hameed Estate, Ashokapuram, Alwaye</span>
               </li>
             </ul>
             <div className="flex space-x-4 mt-4">
@@ -89,7 +89,7 @@ const Footer = () => {
 
         <div className="border-t border-border mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground">
-            © {currentYear} PureEssence Global. All rights reserved.
+            © {currentYear} M.M. Abdul Hameed & Sons. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link to="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">

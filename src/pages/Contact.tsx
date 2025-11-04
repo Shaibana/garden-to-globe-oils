@@ -18,43 +18,31 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email Us",
-      details: ["info@pureessence.com", "sales@pureessence.com"],
+      details: ["info@mmabdulhameed.com", "sales@mmabdulhameed.com"],
     },
     {
       icon: Phone,
       title: "Call Us",
-      details: ["+1 (555) 123-4567", "+44 20 1234 5678"],
+      details: ["+91 484 123 4567", "+91 484 765 4321"],
     },
     {
       icon: MapPin,
       title: "Visit Us",
-      details: ["Global Trade Center", "Suite 500, 5th Avenue", "New York, NY 10001"],
+      details: ["Hameed Estate, Ashokapuram", "P B No:12, Alwaye", "Ernakulam District, India 683101"],
     },
     {
       icon: Clock,
       title: "Business Hours",
-      details: ["Monday - Friday: 9AM - 6PM EST", "24/7 Email Support"],
+      details: ["Monday - Saturday: 9AM - 6PM IST", "Email Support Available"],
     },
   ];
 
   const offices = [
     {
-      region: "North America",
-      address: "Global Trade Center, Suite 500\nNew York, NY 10001, USA",
-      phone: "+1 (555) 123-4567",
-      email: "usa@pureessence.com",
-    },
-    {
-      region: "Europe",
-      address: "International House, 24 Holborn\nLondon EC1N 2HS, UK",
-      phone: "+44 20 1234 5678",
-      email: "europe@pureessence.com",
-    },
-    {
-      region: "Asia Pacific",
-      address: "Marina Bay Financial Centre\nSingapore 018989",
-      phone: "+65 6789 0123",
-      email: "asia@pureessence.com",
+      region: "Head Office",
+      address: "Hameed Estate\nAshokapuram\nP B No:12\nAlwaye, Ernakulam District\nIndia 683101",
+      phone: "+91 484 123 4567",
+      email: "info@mmabdulhameed.com",
     },
   ];
 
@@ -169,7 +157,7 @@ const Contact = () => {
                 <CardContent className="p-0">
                   <div className="aspect-video bg-muted rounded-t-lg overflow-hidden">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2412648718453!2d-73.99185492346444!3d40.74844097138558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1709636468869!5m2!1sen!2sus"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.8333333333335!2d76.35!3d10.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDA2JzAwLjAiTiA3NsKwMjEnMDAuMCJF!5e0!3m2!1sen!2sin!4v1234567890"
                       width="100%"
                       height="100%"
                       style={{ border: 0 }}
@@ -182,7 +170,7 @@ const Contact = () => {
               </Card>
 
               <div className="space-y-4">
-                <h3 className="text-2xl font-serif font-bold">Our Global Offices</h3>
+                <h3 className="text-2xl font-serif font-bold">Our Office</h3>
                 {offices.map((office, index) => (
                   <Card key={index} className="border-border/50">
                     <CardContent className="p-6">
