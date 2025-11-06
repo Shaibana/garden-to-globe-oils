@@ -5,7 +5,38 @@ import ProductCard from "@/components/ProductCard";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Search, Download } from "lucide-react";
-import productsImage from "@/assets/essential-oils-product.jpg";
+// Import product images
+import lemongrassOil from "@/assets/products/lemongrass-oil.jpg";
+import palmarosaOil from "@/assets/products/palmarosa-oil.jpg";
+import peppermintOil from "@/assets/products/peppermint-oil.jpg";
+import eucalyptusOil from "@/assets/products/eucalyptus-oil.jpg";
+import blackPepperOil from "@/assets/products/black-pepper-oil.jpg";
+import citronellaOil from "@/assets/products/citronella-oil.jpg";
+import davanaOil from "@/assets/products/davana-oil.jpg";
+import pineOil from "@/assets/products/pine-oil.jpg";
+import vetiverOil from "@/assets/products/vetiver-oil.jpg";
+import rosemaryOil from "@/assets/products/rosemary-oil.jpg";
+import nutmegOil from "@/assets/products/nutmeg-oil.jpg";
+import cardamomOil from "@/assets/products/cardamom-oil.jpg";
+import cedarwoodOil from "@/assets/products/cedarwood-oil.jpg";
+import camphorOil from "@/assets/products/camphor-oil.jpg";
+import cloveOil from "@/assets/products/clove-oil.jpg";
+import basilOil from "@/assets/products/basil-oil.jpg";
+import spearmintOil from "@/assets/products/spearmint-oil.jpg";
+import cinnamonLeafOil from "@/assets/products/cinnamon-leaf-oil.jpg";
+import gingerOil from "@/assets/products/ginger-oil.jpg";
+import turmericOil from "@/assets/products/turmeric-oil.jpg";
+import patchouliOil from "@/assets/products/patchouli-oil.jpg";
+import castorOil from "@/assets/products/castor-oil.jpg";
+import eveningPrimroseOil from "@/assets/products/evening-primrose-oil.jpg";
+import neemOil from "@/assets/products/neem-oil.jpg";
+import chaulmoograOil from "@/assets/products/chaulmoogra-oil.jpg";
+import coconutOil from "@/assets/products/coconut-oil.jpg";
+import palmOil from "@/assets/products/palm-oil.jpg";
+import geraniol from "@/assets/products/geraniol.jpg";
+import dLimonene from "@/assets/products/d-limonene.jpg";
+import vanillinPowder from "@/assets/products/vanillin-powder.jpg";
+import thymolCrystal from "@/assets/products/thymol-crystal.jpg";
 
 const Products = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -20,154 +51,154 @@ const Products = () => {
       botanicalName: "Cymbopogon citratus",
       origin: "India",
       category: "Essential Oils",
-      image: productsImage,
+      image: lemongrassOil,
     },
     {
       name: "Palmarosa Oil",
       botanicalName: "Cymbopogon martinii",
       origin: "India",
       category: "Essential Oils",
-      image: productsImage,
+      image: palmarosaOil,
     },
     {
       name: "Peppermint Oil",
       botanicalName: "Mentha piperita",
       origin: "India",
       category: "Essential Oils",
-      image: productsImage,
+      image: peppermintOil,
     },
     {
       name: "Eucalyptus Oil",
       botanicalName: "Eucalyptus globulus",
       origin: "India",
       category: "Essential Oils",
-      image: productsImage,
+      image: eucalyptusOil,
     },
     {
       name: "Black Pepper Oil",
       botanicalName: "Piper nigrum",
       origin: "India",
       category: "Essential Oils",
-      image: productsImage,
+      image: blackPepperOil,
     },
     {
       name: "Citronella Oil",
       botanicalName: "Cymbopogon nardus",
       origin: "India",
       category: "Essential Oils",
-      image: productsImage,
+      image: citronellaOil,
     },
     {
       name: "Davana Oil",
       botanicalName: "Artemisia pallens",
       origin: "India",
       category: "Essential Oils",
-      image: productsImage,
+      image: davanaOil,
     },
     {
       name: "Pine Oil",
       botanicalName: "Pinus sylvestris",
       origin: "India",
       category: "Essential Oils",
-      image: productsImage,
+      image: pineOil,
     },
     {
       name: "Vetiver Oil",
       botanicalName: "Vetiveria zizanioides",
       origin: "India",
       category: "Essential Oils",
-      image: productsImage,
+      image: vetiverOil,
     },
     {
       name: "Rosemary Oil",
       botanicalName: "Rosmarinus officinalis",
       origin: "India",
       category: "Essential Oils",
-      image: productsImage,
+      image: rosemaryOil,
     },
     {
       name: "Nutmeg Oil",
       botanicalName: "Myristica fragrans",
       origin: "India",
       category: "Essential Oils",
-      image: productsImage,
+      image: nutmegOil,
     },
     {
       name: "Cardamom Oil",
       botanicalName: "Elettaria cardamomum",
       origin: "India",
       category: "Essential Oils",
-      image: productsImage,
+      image: cardamomOil,
     },
     {
       name: "Cedarwood Oil",
       botanicalName: "Cedrus atlantica",
       origin: "India",
       category: "Essential Oils",
-      image: productsImage,
+      image: cedarwoodOil,
     },
     {
       name: "Camphor Oil",
       botanicalName: "Cinnamomum camphora",
       origin: "India",
       category: "Essential Oils",
-      image: productsImage,
+      image: camphorOil,
     },
     {
       name: "Clove Oil",
       botanicalName: "Syzygium aromaticum",
       origin: "India",
       category: "Essential Oils",
-      image: productsImage,
+      image: cloveOil,
     },
     {
       name: "Basil Oil",
       botanicalName: "Ocimum basilicum",
       origin: "India",
       category: "Essential Oils",
-      image: productsImage,
+      image: basilOil,
     },
     {
       name: "Spearmint Oil",
       botanicalName: "Mentha spicata",
       origin: "India",
       category: "Essential Oils",
-      image: productsImage,
+      image: spearmintOil,
     },
     {
       name: "Cinnamon Leaf Oil",
       botanicalName: "Cinnamomum verum",
       origin: "India",
       category: "Essential Oils",
-      image: productsImage,
+      image: cinnamonLeafOil,
     },
     {
       name: "Mentha Piperita Oil",
       botanicalName: "Mentha piperita",
       origin: "India",
       category: "Essential Oils",
-      image: productsImage,
+      image: peppermintOil,
     },
     {
       name: "Ginger Oil",
       botanicalName: "Zingiber officinale",
       origin: "India",
       category: "Essential Oils",
-      image: productsImage,
+      image: gingerOil,
     },
     {
       name: "Turmeric Oil",
       botanicalName: "Curcuma longa",
       origin: "India",
       category: "Essential Oils",
-      image: productsImage,
+      image: turmericOil,
     },
     {
       name: "Patchouli Oil",
       botanicalName: "Pogostemon cablin",
       origin: "India",
       category: "Essential Oils",
-      image: productsImage,
+      image: patchouliOil,
     },
     // Carrier Oils
     {
@@ -175,42 +206,42 @@ const Products = () => {
       botanicalName: "Ricinus communis",
       origin: "India",
       category: "Carrier Oils",
-      image: productsImage,
+      image: castorOil,
     },
     {
       name: "Evening Primrose Oil",
       botanicalName: "Oenothera biennis",
       origin: "India",
       category: "Carrier Oils",
-      image: productsImage,
+      image: eveningPrimroseOil,
     },
     {
       name: "Neem Oil",
       botanicalName: "Azadirachta indica",
       origin: "India",
       category: "Carrier Oils",
-      image: productsImage,
+      image: neemOil,
     },
     {
       name: "Chaulmoogra Oil",
       botanicalName: "Hydnocarpus wightianus",
       origin: "India",
       category: "Carrier Oils",
-      image: productsImage,
+      image: chaulmoograOil,
     },
     {
       name: "Coconut Oil",
       botanicalName: "Cocos nucifera",
       origin: "India",
       category: "Carrier Oils",
-      image: productsImage,
+      image: coconutOil,
     },
     {
       name: "Palm Oil",
       botanicalName: "Elaeis guineensis",
       origin: "India",
       category: "Carrier Oils",
-      image: productsImage,
+      image: palmOil,
     },
     // Natural Extracts
     {
@@ -218,28 +249,28 @@ const Products = () => {
       botanicalName: "Natural isolate",
       origin: "India",
       category: "Natural Extracts",
-      image: productsImage,
+      image: geraniol,
     },
     {
       name: "D-Limonene",
       botanicalName: "Citrus-derived",
       origin: "India",
       category: "Natural Extracts",
-      image: productsImage,
+      image: dLimonene,
     },
     {
       name: "Vanillin Powder",
       botanicalName: "Vanilla planifolia",
       origin: "India",
       category: "Natural Extracts",
-      image: productsImage,
+      image: vanillinPowder,
     },
     {
       name: "Thymol Crystal",
       botanicalName: "Thymus vulgaris",
       origin: "India",
       category: "Natural Extracts",
-      image: productsImage,
+      image: thymolCrystal,
     },
   ];
 
