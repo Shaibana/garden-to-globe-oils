@@ -7,6 +7,10 @@ import { Leaf, Globe, Shield, Award, Users, Truck } from "lucide-react";
 import { Link } from "react-router-dom";
 import lavenderField from "@/assets/lavender-field.jpg";
 import productsImage from "@/assets/essential-oils-product.jpg";
+import essentialOilsCategory from "@/assets/essential-oils-category.jpg";
+import carrierOilsCategory from "@/assets/carrier-oils-category.jpg";
+import aromatherapyBlendsCategory from "@/assets/aromatherapy-blends-category.jpg";
+import naturalExtractsCategory from "@/assets/natural-extracts-category.jpg";
 
 const Home = () => {
   const features = [
@@ -132,19 +136,23 @@ const Home = () => {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-            {["Essential Oils", "Carrier Oils", "Aromatherapy Blends", "Natural Extracts"].map(
-              (category, index) => (
+            {[
+              { name: "Essential Oils", image: essentialOilsCategory },
+              { name: "Carrier Oils", image: carrierOilsCategory },
+              { name: "Aromatherapy Blends", image: aromatherapyBlendsCategory },
+              { name: "Natural Extracts", image: naturalExtractsCategory }
+            ].map((category, index) => (
                 <Card
                   key={index}
                   className="group cursor-pointer hover:shadow-lg transition-all duration-300 border-border/50"
                 >
                   <CardContent className="pt-6">
                     <img
-                      src={productsImage}
-                      alt={category}
+                      src={category.image}
+                      alt={category.name}
                       className="w-full h-48 object-cover rounded-lg mb-4 transition-transform duration-500 group-hover:scale-105"
                     />
-                    <h3 className="font-serif font-semibold text-xl mb-2 text-center">{category}</h3>
+                    <h3 className="font-serif font-semibold text-xl mb-2 text-center">{category.name}</h3>
                     <p className="text-sm text-center text-muted-foreground">
                       Premium quality, bulk available
                     </p>
