@@ -25,9 +25,9 @@ const Navigation = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-              <span className="text-primary-foreground font-serif text-xl font-bold">PE</span>
+              <span className="text-primary-foreground font-serif text-xl font-bold">MMA</span>
             </div>
-            <span className="font-serif text-2xl font-semibold text-foreground">PureEssence</span>
+            <span className="font-serif text-2xl font-semibold text-foreground">M M Abdul Hameed and Sons</span>
           </Link>
 
           {/* Desktop Navigation */}

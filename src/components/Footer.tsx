@@ -12,9 +12,9 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-                <span className="text-primary-foreground font-serif text-xl font-bold">AH</span>
+                <span className="text-primary-foreground font-serif text-xl font-bold">MMA</span>
               </div>
-              <span className="font-serif text-xl font-semibold">Abdul Hameed & Sons</span>
+              <span className="font-serif text-xl font-semibold">M M Abdul Hameed and Sons</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Pure. Natural. Trusted Worldwide. Wholesale essential oils from nature's finest gardens.
