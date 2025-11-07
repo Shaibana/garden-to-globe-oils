@@ -2,6 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import logoHerb from "@/assets/logo-herb.png";
 
 const Navigation = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -24,8 +25,8 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <div className="w-14 h-14 bg-primary rounded-full flex items-center justify-center">
-              <span className="text-primary-foreground font-serif text-2xl font-bold">MMA</span>
+            <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center p-2">
+              <img src={logoHerb} alt="M M Abdul Hameed and Sons Logo" className="w-full h-full object-contain" />
             </div>
             <span className="font-serif text-2xl font-semibold text-foreground">M M Abdul Hameed and Sons</span>
           </Link>

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin, Linkedin, Instagram } from "lucide-react";
+import logoHerb from "@/assets/logo-herb.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -11,8 +12,8 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="w-14 h-14 bg-primary rounded-full flex items-center justify-center">
-                <span className="text-primary-foreground font-serif text-2xl font-bold">MMA</span>
+              <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center p-2">
+                <img src={logoHerb} alt="M M Abdul Hameed and Sons Logo" className="w-full h-full object-contain" />
               </div>
               <span className="font-serif text-xl font-semibold">M M Abdul Hameed and Sons</span>
             </div>
