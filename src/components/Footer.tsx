@@ -10,9 +10,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-                <span className="text-primary-foreground font-serif text-xl font-bold">MMA</span>
+            <div className="flex items-center space-x-3">
+              <div className="w-14 h-14 bg-primary rounded-full flex items-center justify-center">
+                <span className="text-primary-foreground font-serif text-2xl font-bold">MMA</span>
               </div>
               <span className="font-serif text-xl font-semibold">M M Abdul Hameed and Sons</span>
             </div>
