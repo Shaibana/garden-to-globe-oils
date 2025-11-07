@@ -39,7 +39,7 @@ const Home = () => {
     number: "10,000+",
     label: "Happy Clients"
   }, {
-    number: "25",
+    number: "90",
     label: "Years Experience"
   }];
   return <div className="min-h-screen">
