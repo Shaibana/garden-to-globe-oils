@@ -12,8 +12,8 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center p-2">
-                <img src={logoHerb} alt="M M Abdul Hameed and Sons Logo" className="w-full h-full object-contain" />
+              <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center p-2 animate-pulse">
+                <img src={logoHerb} alt="M M Abdul Hameed and Sons Logo" className="w-full h-full object-contain hover:scale-110 transition-transform duration-300" />
               </div>
               <span className="font-serif text-xl font-semibold">M M Abdul Hameed and Sons</span>
             </div>

@@ -9,9 +9,10 @@ interface ProductCardProps {
   origin: string;
   category: string;
   image: string;
+  description?: string;
 }
 
-const ProductCard = ({ name, botanicalName, origin, category, image }: ProductCardProps) => {
+const ProductCard = ({ name, botanicalName, origin, category, image, description }: ProductCardProps) => {
   return (
     <Card className="group overflow-hidden hover:shadow-lg transition-all duration-300 border-border/50">
       <div className="relative overflow-hidden aspect-square">
@@ -32,7 +33,8 @@ const ProductCard = ({ name, botanicalName, origin, category, image }: ProductCa
           <Leaf className="h-5 w-5 text-primary flex-shrink-0" />
         </div>
         <p className="text-sm italic text-muted-foreground mb-2">{botanicalName}</p>
-        <p className="text-sm text-muted-foreground">Origin: {origin}</p>
+        <p className="text-sm text-muted-foreground mb-2">Origin: {origin}</p>
+        {description && <p className="text-xs text-muted-foreground">{description}</p>}
       </CardContent>
       <CardFooter className="pt-0">
         <Button variant="outline" className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-colors">

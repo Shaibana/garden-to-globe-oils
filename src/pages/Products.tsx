@@ -52,6 +52,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: lemongrassOil,
+      description: "Refreshing citrus aroma, ideal for aromatherapy and natural cleaning products.",
     },
     {
       name: "Palmarosa Oil",
@@ -59,6 +60,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: palmarosaOil,
+      description: "Sweet rose-like fragrance, popular in perfumery and skincare formulations.",
     },
     {
       name: "Peppermint Oil",
@@ -66,6 +68,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: peppermintOil,
+      description: "Cool, minty scent with refreshing properties for wellness and personal care.",
     },
     {
       name: "Eucalyptus Oil",
@@ -73,6 +76,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: eucalyptusOil,
+      description: "Invigorating camphoraceous scent, widely used in respiratory wellness products.",
     },
     {
       name: "Black Pepper Oil",
@@ -80,6 +84,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: blackPepperOil,
+      description: "Warm, spicy aroma with stimulating properties for massage and wellness blends.",
     },
     {
       name: "Citronella Oil",
@@ -87,6 +92,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: citronellaOil,
+      description: "Fresh lemony scent, naturally repels insects and freshens indoor spaces.",
     },
     {
       name: "Davana Oil",
@@ -94,6 +100,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: davanaOil,
+      description: "Unique fruity aroma prized in fine fragrance and luxury perfume blends.",
     },
     {
       name: "Pine Oil",
@@ -101,6 +108,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: pineOil,
+      description: "Fresh forest scent, excellent for household cleaners and air freshening.",
     },
     {
       name: "Vetiver Oil",
@@ -108,6 +116,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: vetiverOil,
+      description: "Deep earthy fragrance, valued in perfumery for its grounding base notes.",
     },
     {
       name: "Rosemary Oil",
@@ -115,6 +124,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: rosemaryOil,
+      description: "Herbaceous aroma, popular in hair care and mental clarity applications.",
     },
     {
       name: "Nutmeg Oil",
@@ -122,6 +132,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: nutmegOil,
+      description: "Warm spicy fragrance, used in massage oils and therapeutic blends.",
     },
     {
       name: "Cardamom Oil",
@@ -129,6 +140,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: cardamomOil,
+      description: "Sweet spicy scent with warming properties for digestive wellness blends.",
     },
     {
       name: "Cedarwood Oil",
@@ -136,6 +148,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: cedarwoodOil,
+      description: "Woody calming aroma, excellent for meditation and stress relief products.",
     },
     {
       name: "Camphor Oil",
@@ -143,6 +156,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: camphorOil,
+      description: "Strong penetrating scent, traditional use in balms and chest rubs.",
     },
     {
       name: "Clove Oil",
@@ -150,6 +164,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: cloveOil,
+      description: "Rich spicy aroma, valued in dental care and pain relief applications.",
     },
     {
       name: "Basil Oil",
@@ -157,6 +172,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: basilOil,
+      description: "Sweet herbaceous scent, promotes focus and mental clarity in aromatherapy.",
     },
     {
       name: "Spearmint Oil",
@@ -164,6 +180,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: spearmintOil,
+      description: "Gentle minty fragrance, milder than peppermint for sensitive applications.",
     },
     {
       name: "Cinnamon Leaf Oil",
@@ -171,6 +188,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: cinnamonLeafOil,
+      description: "Warm cinnamon scent, creates cozy atmosphere in diffuser blends.",
     },
     {
       name: "Mentha Piperita Oil",
@@ -178,6 +196,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: peppermintOil,
+      description: "Pure peppermint extract, energizing and refreshing for multiple uses.",
     },
     {
       name: "Ginger Oil",
@@ -185,6 +204,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: gingerOil,
+      description: "Spicy warming oil, supports circulation and digestive comfort blends.",
     },
     {
       name: "Turmeric Oil",
@@ -192,6 +212,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: turmericOil,
+      description: "Earthy golden oil, incorporated in skincare for its natural properties.",
     },
     {
       name: "Patchouli Oil",
@@ -199,6 +220,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: patchouliOil,
+      description: "Musky earthy scent, classic ingredient in oriental perfume compositions.",
     },
     // Carrier Oils
     {
@@ -207,6 +229,7 @@ const Products = () => {
       origin: "India",
       category: "Carrier Oils",
       image: castorOil,
+      description: "Thick moisturizing oil, traditional favorite for hair and scalp treatments.",
     },
     {
       name: "Evening Primrose Oil",
@@ -214,6 +237,7 @@ const Products = () => {
       origin: "India",
       category: "Carrier Oils",
       image: eveningPrimroseOil,
+      description: "Rich in omega fatty acids, premium oil for anti-aging skincare formulas.",
     },
     {
       name: "Neem Oil",
@@ -221,6 +245,7 @@ const Products = () => {
       origin: "India",
       category: "Carrier Oils",
       image: neemOil,
+      description: "Traditional Ayurvedic oil, natural properties for skincare and garden use.",
     },
     {
       name: "Chaulmoogra Oil",
@@ -228,6 +253,7 @@ const Products = () => {
       origin: "India",
       category: "Carrier Oils",
       image: chaulmoograOil,
+      description: "Rare therapeutic oil, historically valued in traditional medicine practices.",
     },
     {
       name: "Coconut Oil",
@@ -235,6 +261,7 @@ const Products = () => {
       origin: "India",
       category: "Carrier Oils",
       image: coconutOil,
+      description: "Versatile lightweight oil, ideal carrier for massage and beauty applications.",
     },
     {
       name: "Palm Oil",
@@ -242,6 +269,7 @@ const Products = () => {
       origin: "India",
       category: "Carrier Oils",
       image: palmOil,
+      description: "Stable base oil, widely used in soap making and cosmetic formulations.",
     },
     // Natural Extracts
     {
@@ -250,6 +278,7 @@ const Products = () => {
       origin: "India",
       category: "Natural Extracts",
       image: geraniol,
+      description: "Rose-like compound, key ingredient in fine fragrance and flavor industry.",
     },
     {
       name: "D-Limonene",
@@ -257,6 +286,7 @@ const Products = () => {
       origin: "India",
       category: "Natural Extracts",
       image: dLimonene,
+      description: "Citrus extract solvent, natural cleaner and degreaser for industrial use.",
     },
     {
       name: "Vanillin Powder",
@@ -264,6 +294,7 @@ const Products = () => {
       origin: "India",
       category: "Natural Extracts",
       image: vanillinPowder,
+      description: "Sweet vanilla compound, extensively used in food flavoring and perfumery.",
     },
     {
       name: "Thymol Crystal",
@@ -271,6 +302,7 @@ const Products = () => {
       origin: "India",
       category: "Natural Extracts",
       image: thymolCrystal,
+      description: "Crystalline thyme extract, powerful natural preservative for pharmaceutical use.",
     },
   ];
 
