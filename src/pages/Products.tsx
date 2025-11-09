@@ -52,7 +52,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: lemongrassOil,
-      description: "Refreshing citrus aroma, ideal for aromatherapy and natural cleaning products.",
+      description: "Steam-distilled from fresh grass, featuring a strong lemony scent. Popular in perfumery, soaps, and natural insect repellents. Known for its purifying and uplifting properties in aromatherapy.",
     },
     {
       name: "Palmarosa Oil",
@@ -60,7 +60,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: palmarosaOil,
-      description: "Sweet rose-like fragrance, popular in perfumery and skincare formulations.",
+      description: "Extracted from Motia grass, prized for its sweet floral-rose aroma. Extensively used in premium perfumes, cosmetics, and skincare. Helps balance sebum production and hydrates skin naturally.",
     },
     {
       name: "Peppermint Oil",
@@ -68,7 +68,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: peppermintOil,
-      description: "Cool, minty scent with refreshing properties for wellness and personal care.",
+      description: "High menthol content oil with cooling sensation. Widely used in oral care, pharmaceuticals, and food flavoring. Excellent for mental clarity, digestive comfort, and respiratory wellness applications.",
     },
     {
       name: "Eucalyptus Oil",
@@ -76,7 +76,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: eucalyptusOil,
-      description: "Invigorating camphoraceous scent, widely used in respiratory wellness products.",
+      description: "Distilled from eucalyptus leaves, rich in cineole. Traditional use in chest rubs, vapor inhalants, and wellness balms. Natural decongestant properties make it ideal for cold and flu season products.",
     },
     {
       name: "Black Pepper Oil",
@@ -84,7 +84,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: blackPepperOil,
-      description: "Warm, spicy aroma with stimulating properties for massage and wellness blends.",
+      description: "Steam-distilled from dried peppercorns, featuring warm spicy notes. Used in perfumery, flavoring, and therapeutic massage oils. Supports circulation and adds depth to spice-based fragrance blends.",
     },
     {
       name: "Citronella Oil",
@@ -92,7 +92,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: citronellaOil,
-      description: "Fresh lemony scent, naturally repels insects and freshens indoor spaces.",
+      description: "Grass-derived oil with strong citrus notes. Premier natural insect repellent used in outdoor candles, sprays, and lotions. Also effective in household cleaners and air fresheners for tropical fragrance.",
     },
     {
       name: "Davana Oil",
@@ -116,7 +116,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: vetiverOil,
-      description: "Deep earthy fragrance, valued in perfumery for its grounding base notes.",
+      description: "Distilled from aromatic roots, featuring deep woody-earthy notes. Essential fixative in high-end perfumes and oriental fragrances. Traditional use in meditation and grounding aromatherapy practices.",
     },
     {
       name: "Rosemary Oil",
@@ -164,7 +164,7 @@ const Products = () => {
       origin: "India",
       category: "Essential Oils",
       image: cloveOil,
-      description: "Rich spicy aroma, valued in dental care and pain relief applications.",
+      description: "Extracted from clove buds, high in eugenol content. Widely used in dental products, pain relief balms, and food preservation. Natural antiseptic and analgesic properties make it invaluable in traditional medicine.",
     },
     {
       name: "Basil Oil",
@@ -229,7 +229,7 @@ const Products = () => {
       origin: "India",
       category: "Carrier Oils",
       image: castorOil,
-      description: "Thick moisturizing oil, traditional favorite for hair and scalp treatments.",
+      description: "Cold-pressed from castor beans, rich in ricinoleic acid. Deeply moisturizing carrier oil perfect for hair growth treatments, eyelash serums, and intensive skin conditioning. Also used in soap making for lather enhancement.",
     },
     {
       name: "Evening Primrose Oil",
@@ -245,7 +245,7 @@ const Products = () => {
       origin: "India",
       category: "Carrier Oils",
       image: neemOil,
-      description: "Traditional Ayurvedic oil, natural properties for skincare and garden use.",
+      description: "Cold-pressed from neem seeds, centuries-old Ayurvedic remedy. Rich in azadirachtin, used in natural skincare for problematic skin. Also popular in organic gardening as natural pest control and soil enrichment.",
     },
     {
       name: "Chaulmoogra Oil",
