@@ -33,8 +33,12 @@ const ProductCard = ({ name, botanicalName, origin, category, image, description
           <Leaf className="h-5 w-5 text-primary flex-shrink-0" />
         </div>
         <p className="text-sm italic text-muted-foreground mb-2">{botanicalName}</p>
-        <p className="text-sm text-muted-foreground mb-2">Origin: {origin}</p>
-        {description && <p className="text-xs text-muted-foreground">{description}</p>}
+        <p className="text-sm text-muted-foreground mb-3">Origin: {origin}</p>
+        {description && (
+          <p className="text-sm text-foreground/80 leading-relaxed border-l-2 border-primary/30 pl-3 py-1">
+            {description}
+          </p>
+        )}
       </CardContent>
       <CardFooter className="pt-0">
         <Button variant="outline" className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
