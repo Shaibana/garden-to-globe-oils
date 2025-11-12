@@ -1,5 +1,4 @@
-import { Card, CardContent, CardFooter } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Leaf } from "lucide-react";
 
@@ -40,11 +39,6 @@ const ProductCard = ({ name, botanicalName, origin, category, image, description
           </p>
         )}
       </CardContent>
-      <CardFooter className="pt-0">
-        <Button variant="outline" className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
-          View Details
-        </Button>
-      </CardFooter>
     </Card>
   );
 };
