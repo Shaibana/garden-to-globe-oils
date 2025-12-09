@@ -123,17 +123,22 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
             {[{
             name: "Essential Oils",
-            image: essentialOilsCategory
+            image: essentialOilsCategory,
+            category: "Essential Oils"
           }, {
             name: "Carrier Oils",
-            image: carrierOilsCategory
+            image: carrierOilsCategory,
+            category: "Carrier Oils"
           }, {
             name: "Aromatherapy Blends",
-            image: aromatherapyBlendsCategory
+            image: aromatherapyBlendsCategory,
+            category: "Natural Extracts"
           }, {
             name: "Natural Extracts",
-            image: naturalExtractsCategory
-          }].map((category, index) => <Card key={index} className="group cursor-pointer hover:shadow-lg transition-all duration-300 border-border/50">
+            image: naturalExtractsCategory,
+            category: "Natural Extracts"
+          }].map((category, index) => <Link key={index} to={`/products?category=${encodeURIComponent(category.category)}`}>
+                  <Card className="group cursor-pointer hover:shadow-lg transition-all duration-300 border-border/50">
                   <CardContent className="pt-6">
                     <img src={category.image} alt={category.name} className="w-full h-48 object-cover rounded-lg mb-4 transition-transform duration-500 group-hover:scale-105" />
                     <h3 className="font-serif font-semibold text-xl mb-2 text-center">{category.name}</h3>
@@ -141,7 +146,8 @@ const Home = () => {
                       Premium quality, bulk available
                     </p>
                   </CardContent>
-                </Card>)}
+                </Card>
+                </Link>)}
           </div>
           <div className="text-center">
             <Button size="lg" asChild>
