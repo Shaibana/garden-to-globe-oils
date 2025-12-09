@@ -6,6 +6,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Products from "./pages/Products";
+import EssentialOils from "./pages/EssentialOils";
+import CarrierOils from "./pages/CarrierOils";
+import NaturalExtracts from "./pages/NaturalExtracts";
 import Wholesale from "./pages/Wholesale";
 import Quality from "./pages/Quality";
 import Contact from "./pages/Contact";
@@ -24,6 +27,9 @@ const App = () => (
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/products" element={<Products />} />
+          <Route path="/products/essential-oils" element={<EssentialOils />} />
+          <Route path="/products/carrier-oils" element={<CarrierOils />} />
+          <Route path="/products/natural-extracts" element={<NaturalExtracts />} />
           <Route path="/wholesale" element={<Wholesale />} />
           <Route path="/quality" element={<Quality />} />
           <Route path="/contact" element={<Contact />} />
