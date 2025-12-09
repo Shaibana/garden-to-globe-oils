@@ -124,20 +124,16 @@ const Home = () => {
             {[{
             name: "Essential Oils",
             image: essentialOilsCategory,
-            category: "Essential Oils"
+            path: "/products/essential-oils"
           }, {
             name: "Carrier Oils",
             image: carrierOilsCategory,
-            category: "Carrier Oils"
-          }, {
-            name: "Aromatherapy Blends",
-            image: aromatherapyBlendsCategory,
-            category: "Natural Extracts"
+            path: "/products/carrier-oils"
           }, {
             name: "Natural Extracts",
             image: naturalExtractsCategory,
-            category: "Natural Extracts"
-          }].map((category, index) => <Link key={index} to={`/products?category=${encodeURIComponent(category.category)}`}>
+            path: "/products/natural-extracts"
+          }].map((category, index) => <Link key={index} to={category.path}>
                   <Card className="group cursor-pointer hover:shadow-lg transition-all duration-300 border-border/50">
                   <CardContent className="pt-6">
                     <img src={category.image} alt={category.name} className="w-full h-48 object-cover rounded-lg mb-4 transition-transform duration-500 group-hover:scale-105" />
